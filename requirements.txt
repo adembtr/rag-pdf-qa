@@ -1,0 +1,13 @@
+# Requirements for RAG (Retrieval-Augmented Generation) Project
+
+# PDF processing - extract text from PDF documents
+pymupdf==1.24.5
+
+# Text embeddings - convert text chunks into semantic vector representations
+sentence-transformers==3.0.1
+
+# Vector database - store, index, and query embeddings for similarity search
+chromadb==0.5.5
+
+# Numerical operations - array manipulation and mathematical computations
+numpy==1.26.4

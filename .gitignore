@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Your documents and the generated vector DB stay local
+data/pdfs/*
+!data/pdfs/.gitkeep
+data/db/
+*.sqlite3
+
+# Query outputs
+output*.txt
